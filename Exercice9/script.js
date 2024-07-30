@@ -3,14 +3,12 @@
 export default checkAge;
 
 
-function checkAge (int) {
-if (int.value) < 18 {
-    return :"Vous êtes mineur";
-} else {
-    if (int.value) > 75 {
-        return :"Vous êtes senior";
+function checkAge(int) {
+if (int < 18) {
+    return "Vous êtes mineur";
+} else if (int > 65) {
+        return "Vous êtes senior";
     } else {
-        return:"Vous êtes majeur";
+        return "Vous êtes majeur";
     }
-}
-}
+};

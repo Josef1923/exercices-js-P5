@@ -3,5 +3,6 @@
  export default add; 
 
  function add (int,float) {
-    return int + float
- };
+    let s = int + float;
+    return (s)
+ }
