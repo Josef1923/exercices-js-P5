@@ -2,7 +2,7 @@
 
  export default add; 
 
- function add (int,float) {
-    let s = int + float;
+ function add (a,b) {
+    let s = parseFloat(a) + parseFloat(b);
     return (s)
  }

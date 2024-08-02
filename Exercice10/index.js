@@ -3,5 +3,15 @@
 export default printNumbers
 
 function printNumbers(n) {
-for (let i = 0; i === n; i++);
+
+    let res = "";
+
+    for (let i = 1; i <= n ; i++) {
+    res += i;
+
+        if (i!= n ) {
+            res += " ";
+        }
+    }
+    return res;
 };
