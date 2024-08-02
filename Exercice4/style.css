@@ -12,7 +12,8 @@
 .aside {
     background-color: #B3D9FF;
     flex: 1;
-    border: 1px solid #CCC;
+    border: solid #CCC;
+    border-width: 1px;
 }
 
 .footer {
